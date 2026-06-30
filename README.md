@@ -1,16 +1,18 @@
-# React + Vite
+Social Media Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive single-page React application that simulates a live social media feed. 
 
-Currently, two official plugins are available:
+lIve Website Link: `https://socialmediajsk.netlify.app/`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+#Features
+--View Posts: Automatically fetches and displays a feed of posts when the app loads.
+--Create Posts: Fill out a form to instantly add new posts with custom titles, tags, and reactions.
+--Delete Posts: Click the trash icon to remove posts from the feed immediately.
+--Smooth Navigation: Switch between the home feed and the creation form without the browser reloading.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#Tech Stack
+--Framework: React.js
+--State Management: Context API & useReducer
+--Routing: React Router v6
+--Styling: Bootstrap 5 & React Icons
+--Data: DummyJSON API
