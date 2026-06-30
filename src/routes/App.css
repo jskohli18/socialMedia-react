@@ -1,0 +1,50 @@
+.contentbox{
+  display: flex;
+}
+
+.head-foot{
+  width: 100%;
+}
+
+.sidebar{
+  height: 100vh;
+}
+
+.my-tag{
+  margin: 0px 3px;
+}
+
+.myCard{
+  width: 30rem;
+  margin: 30px;
+  border: 2px slid black;
+}
+
+.my-form{
+  width: 80%;
+  margin: 5%;
+}
+
+.my-mssg{
+  text-align: center;
+  margin-top: 50px;
+}
+
+.my-load{
+  margin: 30% 50%;
+}
+
+.reactions{
+  margin: 10px 0px;
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+.my-reaction{
+  margin: 10px 0px;
+}
+
+.my-likes{
+  margin-right: 20px;
+}
